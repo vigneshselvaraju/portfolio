@@ -1,0 +1,61 @@
+.card{
+    border-radius: 20px;
+    background-color: white;
+    height: 15cm;
+    margin-right: 1.3cm;
+    border: 0;
+}
+.personal-card{
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 1.3cm;
+    height: 15cm;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    border: 0;
+}
+.mail-form-card{
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 4%);
+    height: 15cm;
+    margin-right: 1.3cm;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    border: 0;
+}
+.personal-card-image{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.info-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+.info-content{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+.mobile{
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+input:focus, 
+textarea:focus, 
+button:focus,
+select:focus {
+  border-color: black !important; /* Change to desired border color */
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1) !important; /* Change to desired shadow color */
+  outline: none; /* Removes default outline */
+}

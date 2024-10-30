@@ -1,0 +1,11 @@
+.contact{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.reach:hover{
+    color: #ec7b5c;
+}

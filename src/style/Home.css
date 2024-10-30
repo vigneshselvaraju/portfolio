@@ -1,0 +1,32 @@
+.home{
+    height: 100%;
+    background-color: #f7f2f2;
+    font-family:  "Exo 2", sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.col{
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; 
+}
+.text {
+    font-size: 16px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 750;
+    font-size: 25px;
+    margin-top: 80px;
+    line-height: 50px;
+  }
+
+.flex-container{
+    display: flex;
+   justify-content: center;
+}
+
+.name-highlight{
+    font-weight: 900;
+    color: #ec7b5c;
+}
