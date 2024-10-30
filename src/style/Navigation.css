@@ -1,0 +1,32 @@
+.navigation{
+    display: flex;
+    justify-content:center;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size:20px;
+    
+}
+.custom-link{
+    color: black !important;
+}
+.custom-link:hover {
+    color: black !important; 
+}
+.navigation-inner {
+    background: rgba(0, 0, 0, 4%);
+    border-radius: 30px;
+    margin: 15px 0;
+}
+.navigation-inner ul {
+    font-weight: 800;
+    font-size: 20px;
+    padding: 5px;
+}
+.navigation-inner ul li {
+    border-radius: 16px;
+}
+.nav-item .nav-link.active{
+    
+    border-radius: 30px;
+    background-color: white;
+}
