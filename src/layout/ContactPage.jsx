@@ -4,7 +4,6 @@ import emailjs from '@emailjs/browser';
 import "../style/Home.css"
 import emoji from "../Assets/emoji.png";
 import "../style/Card.css";
-import Footer from './Footer';
 const ContactPage = () => {
     const form = useRef();
   
@@ -29,7 +28,7 @@ const ContactPage = () => {
             <div className='col-lg-5'>
                 <div className='personal-card'>
                     <div className='personal-card-image'>
-                        <img src={emoji} width="200" height="200"></img>
+                        <img src={emoji} width="200" height="200" alt=""></img>
                     </div>     
                     <div>
                         <div className='info-name'>
