@@ -6,13 +6,13 @@ function Navigation() {
       <div className='navigation-inner'>
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active custom-link" >Home</a>
+          <a class="nav-link active custom-link" href='https://example.com'>Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link custom-link" >About</a>
+          <a class="nav-link custom-link" href='https://example.com'>About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link custom-link" >Links</a>
+          <a class="nav-link custom-link" href='https://example.com'>Links</a>
         </li>       
       </ul>
       </div>

@@ -16,7 +16,7 @@ function Home(){
             <div className='col-lg-12 mt-5'>
               <div className='row'>
                 <div className='col-lg-4 flex-container'>
-                  <img src={emoji} width="350" height="350" ></img>               
+                  <img src={emoji} width="350" height="350" alt=""></img>               
                 </div>
                 <div className='col-lg-8 content'>
                   <p style={{fontSize:"30px",marginTop:"50px",fontWeight:"700"}}>Hello! I'm</p>
@@ -27,22 +27,22 @@ function Home(){
                   <div className='social-media'>
                     <div className='social-media-card'>
                       <a href="https://www.linkedin.com/in/vigneshselvaraju/" target="_blank" rel="noopener noreferrer">
-                        <img src={linked} width="35" height="35" ></img>
+                        <img src={linked} width="35" height="35" alt=""></img>
                       </a>  
                     </div>
                     <div className='social-media-card'>
                       <a href="https://github.com/vigneshselvaraju" target="_blank" rel="noopener noreferrer">
-                        <img src={github} width="35" height="35"></img>
+                        <img src={github} width="35" height="35" alt=""></img>
                       </a> 
                     </div>
                     <div className='social-media-card'>
                       <a href="https://www.instagram.com/vicky._.selvaraju/" target="_blank" rel="noopener noreferrer">
-                        <img src={instagram } width="35" height="35"></img>
+                        <img src={instagram } width="35" height="35" alt=""></img>
                       </a>
                     </div>
                     <div className='social-media-card'>
                       <a href="https://www.facebook.com/vignesh.suji.1/" target="_blank" rel="noopener noreferrer">
-                        <img src={facebook} width="35" height="35" ></img>
+                        <img src={facebook} width="35" height="35" alt=""></img>
                       </a>
                     </div>
                   </div>
