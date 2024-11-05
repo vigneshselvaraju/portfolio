@@ -5,15 +5,15 @@ import Navigation from '../components/Navigation';
 import "../style/Header.css";
 function Header(){
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid fixed-header'>
       <div className="row">
-        <div className='col-4'>
+        <div className='col-lg-4'>
           <Name/>
         </div>
-        <div className='col-4'>
+        <div className='col-lg-4'>
           <Navigation/>
         </div>
-        <div className='col-4'>
+        <div className='col-lg-4'>
           <Contact/>
         </div>
       </div>
