@@ -1,7 +1,5 @@
 import React from 'react'
 import Name from '../components/Name';
-import Contact from '../components/Contact';
-import Navigation from '../components/Navigation';
 import "../style/Header.css";
 function Header(){
   return (
