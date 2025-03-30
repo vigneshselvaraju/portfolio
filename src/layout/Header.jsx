@@ -10,12 +10,12 @@ function Header(){
         <div className='col-lg-4'>
           <Name/>
         </div>
-        <div className='col-lg-4'>
+        {/* <div className='col-lg-4'>
           <Navigation/>
-        </div>
-        <div className='col-lg-4'>
+        </div> */}
+        {/* <div className='col-lg-4'>
           <Contact/>
-        </div>
+        </div> */}
       </div>
     </div>
   )
